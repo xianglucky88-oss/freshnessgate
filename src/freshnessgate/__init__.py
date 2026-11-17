@@ -1,1 +1,1 @@
-"""freshnessgate baseline (single-responsibility pipeline)."""
+"""freshnessgate package (single-responsibility pipeline)."""
