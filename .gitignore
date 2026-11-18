@@ -3,6 +3,9 @@ __pycache__/
 .pytest_cache/
 *.db
 .venv/
+# Runtime artifacts: quarantine sqlite + append-only replay journal
+var/
+quarantine*.jsonl
 # Local environment and secret material
 .env
 .env.*

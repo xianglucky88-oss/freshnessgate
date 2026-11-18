@@ -1,0 +1,64 @@
+[
+  {
+    "id": "legacy-ok-1",
+    "src": "alpha",
+    "name": "Legacy One",
+    "value": 10,
+    "status": "active",
+    "ts": "2026-11-01T00:00:00Z"
+  },
+  {
+    "id": "legacy-ok-2",
+    "src": "alpha",
+    "name": "Legacy Two",
+    "value": "20",
+    "status": "pending",
+    "ts": "2026-11-02T00:00:00Z"
+  },
+  {
+    "id": "v2-ok-1",
+    "schema_version": "2",
+    "src": "beta",
+    "title": "V2 One",
+    "value": 30.5,
+    "status": "archived",
+    "observed_at": "2026-11-03T00:00:00Z",
+    "unit": "kg",
+    "extra_note": "新增字段按 allow 策略放行"
+  },
+  {
+    "id": "v2-renamed-1",
+    "schema_version": 2,
+    "src": "beta",
+    "name": "Renamed From Legacy",
+    "value": 40,
+    "status": "sold",
+    "ts": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "bad-enum-1",
+    "schema_version": "2",
+    "src": "gamma",
+    "title": "Unknown Enum",
+    "value": 50,
+    "status": "mystery",
+    "observed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "bad-missing-1",
+    "schema_version": "2",
+    "src": "gamma",
+    "title": "Missing Value",
+    "status": "active",
+    "observed_at": "2026-11-06T00:00:00Z"
+  },
+  {
+    "id": "bad-type-1",
+    "schema_version": "2",
+    "src": "gamma",
+    "title": "Type Changed",
+    "value": "fifty",
+    "status": "active",
+    "observed_at": "2026-11-07T00:00:00Z"
+  }
+]
