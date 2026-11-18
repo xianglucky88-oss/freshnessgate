@@ -2,8 +2,8 @@
 import json, sqlite3
 from .config import DB_PATH
 
-def connect():
-    con = sqlite3.connect(DB_PATH)
+def connect(db_path=None):
+    con = sqlite3.connect(str(db_path) if db_path is not None else DB_PATH)
     con.execute("CREATE TABLE IF NOT EXISTS records(key TEXT PRIMARY KEY, data TEXT NOT NULL)")
     return con
 
