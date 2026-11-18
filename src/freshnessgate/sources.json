@@ -1,0 +1,53 @@
+{
+  "sources": {
+    "alpha": {
+      "period": "1d",
+      "tolerance": "2h",
+      "clock_skew": "5m",
+      "timezone": "UTC",
+      "expected_at": "00:00",
+      "event_time_field": "ts",
+      "received_at_field": "received_at",
+      "rule_version": "v1"
+    },
+    "beta": {
+      "period": "1d",
+      "tolerance": "6h",
+      "clock_skew": "10m",
+      "timezone": "UTC",
+      "expected_at": "00:00",
+      "event_time_field": "ts",
+      "received_at_field": "received_at",
+      "rule_version": "v1"
+    },
+    "daily-eu": {
+      "period": "1d",
+      "tolerance": "2h",
+      "clock_skew": "5m",
+      "timezone": "Europe/Berlin",
+      "expected_at": "08:00",
+      "event_time_field": "ts",
+      "received_at_field": "received_at",
+      "rule_version": "v1"
+    },
+    "daily-sh": {
+      "period": "1d",
+      "tolerance": "90m",
+      "clock_skew": "5m",
+      "timezone": "Asia/Shanghai",
+      "expected_at": "09:00",
+      "event_time_field": "ts",
+      "received_at_field": "received_at",
+      "rule_version": "v1"
+    },
+    "minute-us": {
+      "period": "1m",
+      "tolerance": "30s",
+      "clock_skew": "5s",
+      "timezone": "UTC",
+      "event_time_field": "ts",
+      "received_at_field": "received_at",
+      "rule_version": "v1"
+    }
+  }
+}
